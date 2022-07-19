@@ -18,5 +18,6 @@ Route::get('/', function () {
 });
 // Test B1
 // Test B2
+// First testing of GitKraken whith commit "First GitKraken"
 
 Route::get('test','Admin\FirstController@Show');
