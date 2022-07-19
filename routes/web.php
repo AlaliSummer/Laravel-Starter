@@ -17,3 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 // Test B1
+// Test B2
