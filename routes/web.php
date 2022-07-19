@@ -19,4 +19,4 @@ Route::get('/', function () {
 // Test B1
 // Test B2
 
-Route::get('test','FirstController@Show');
+Route::get('test','Admin\FirstController@Show');
