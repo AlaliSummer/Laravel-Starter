@@ -8,9 +8,6 @@ use Illuminate\Routing\Controller;
 class FirstController extends Controller
 {
 
-    public function __construct(){
-        $thus -> middleware( middleware: 'auth');
-    }
     public function Show(){
         return 'Summer Hussein Alali';
     }
