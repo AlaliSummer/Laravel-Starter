@@ -22,3 +22,4 @@ Route::get('/', function () {
 // empty
 
 Route::get('test','Admin\FirstController@Show');
+Route::get('testshow','Admin\FirstController@Show');
