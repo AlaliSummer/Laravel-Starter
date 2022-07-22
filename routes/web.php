@@ -22,3 +22,5 @@ Route::get('/', function () {
 // empty
 
 Route::get('test','Admin\FirstController@Show');
+Route::get('test1','Admin\FirstController@Show1');
+Route::get('test2','Admin\FirstController@Show2');

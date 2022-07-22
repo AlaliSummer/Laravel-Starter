@@ -11,6 +11,12 @@ class FirstController extends Controller
     public function Show(){
         return 'Summer Hussein Alali';
     }
+    public function Show1(){
+        return 'Summer Hussein Alali 1';
+    }
+    public function Show2(){
+        return 'Summer Hussein Alali 2';
+    }
 }
 
 // Change the string by B2
