@@ -23,3 +23,4 @@ Route::get('/', function () {
 
 Route::get('test','Admin\FirstController@Show');
 Route::get('testshow','Admin\FirstController@Show');
+Route::get('testing','Admin\FirstController@Show');
