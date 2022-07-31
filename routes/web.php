@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\UploadFileController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +17,18 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/show', function () {
+    return view('show');
+});
+Route::get('/upload', [UploadFileController::class, 'UploadFile']);
+Route::post('/uploaded', [UploadFileController::class, 'UploadedDone'])->name('file.upload');
+// Test B1
+// Test B2
+// First testing of GitKraken whith commit "First GitKraken"
+// empty
+
+Route::get('test','Admin\FirstController@Show');
+Route::get('test1','Admin\FirstController@Show1');
+Route::get('test2','Admin\FirstController@Show2');
+Route::get('testshow','Admin\FirstController@Show');
+Route::get('testing','Admin\FirstController@Show');
