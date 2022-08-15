@@ -22,12 +22,6 @@ Route::get('/show', function () {
 });
 Route::get('/upload', [UploadFileController::class, 'UploadFile']);
 Route::post('/uploaded', [UploadFileController::class, 'UploadedDone'])->name('file.upload');
-// Test B1
-// Test B2
-// First testing of GitKraken whith commit "First GitKraken"
-// empty
-//new
-//other one
 Route::get('test','Admin\FirstController@Show');
 Route::get('test1','Admin\FirstController@Show1');
 Route::get('test2','Admin\FirstController@Show2');
